@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+table, th, td {
+    border: 1px solid #d6a672cc;
+    border-collapse: collapse;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 1.5rem;
+    margin: 1.0rem;
+    background-image: url("alimentos.jpg");
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.title {
+    padding: 1.0rem;
+    font-size: 3.0em;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    color: #980304;
+}
+
+.description {
+    font-size: 1.5em;
+    padding: 1.0rem;
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+}
+
+.content-table{
+    overflow-x: auto;
+    margin: 1.5rem;
+}
+
+table {
+    width: 100%;
+    height: 80vh;
+    padding-top: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+caption {  
+    padding-top: 0.3rem;
+    font-size: 1.3em;
+    background-color: #d6a672cc;
+
+}
+
+.week {
+    font-size: 1.0em;
+    padding: 0.5rem;
+    background-color: #b7c167;
+    color: #ffffff;
+}
+
+.snack {
+    width: 5%;
+    height: 50px;
+    font-size: 0.9em;
+    padding: 0.5rem;
+    background-color: #b7c167;
+    color: #ffffff;
+}
+
+
+.content {
+    width: 13.5%;
+    height: 15vh;
+    padding: 0.3rem;
+    text-align: center;
+    vertical-align: text-top;
+    font-size: 1.0em;
+}
+
+footer {
+    background-color: #b7c167;
+    text-align: center;
+    padding: 10px;
+    color:#ffffff;
+    /* margin-top: ; */
+}
